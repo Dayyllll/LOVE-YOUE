@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untuk Kamu ❤️</title>
+  <meta name="description" content="Website kecil yang dibuat khusus untuk seseorang yang spesial.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true">
+    <span>❤</span><span>❤</span><span>❤</span><span>❤</span><span>❤</span>
+  </div>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">A little website, just for you 💌</p>
+      <h1>Untuk kamu,<br><span>orang favoritku.</span> ❤️</h1>
+      <p class="hero-text">
+        Aku bikin halaman kecil ini supaya beberapa kenangan kita punya tempat
+        sendiri di internet.
+      </p>
+      <a class="button primary" href="#cerita">Lihat cerita kita ↓</a>
+    </section>
+
+    <section id="cerita" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">OUR LITTLE STORY</p>
+        <h2>Beberapa hal yang ingin aku simpan.</h2>
+      </div>
+
+      <div class="memory-card">
+        <div class="memory-copy">
+          <p class="date">Kenangan #01</p>
+          <h3>Hari ketika semuanya terasa spesial.</h3>
+          <p>
+            Ganti tulisan ini dengan cerita kalian: kapan pertama bertemu,
+            pertama jalan bareng, atau momen favoritmu bersamanya.
+          </p>
+        </div>
+        <div class="memory-photo">
+          <img src="assets/foto1.jpg" alt="Foto kenangan pertama">
+        </div>
+      </div>
+
+      <div class="memory-card reverse">
+        <div class="memory-copy">
+          <p class="date">Kenangan #02</p>
+          <h3>Foto yang selalu bikin senyum.</h3>
+          <p>
+            Kamu bisa mengganti paragraf ini dengan inside joke, ucapan
+            terima kasih, atau pesan singkat untuk pasanganmu.
+          </p>
+        </div>
+        <div class="memory-photo">
+          <img src="assets/foto2.jpg" alt="Foto kenangan kedua">
+        </div>
+      </div>
+    </section>
+
+    <section class="section photo-section">
+      <div class="section-heading">
+        <p class="eyebrow">OUR GALLERY</p>
+        <h2>Tiga foto, seribu kenangan.</h2>
+      </div>
+
+      <div class="gallery">
+        <figure><img src="assets/foto1.jpg" alt="Kenangan 1"></figure>
+        <figure><img src="assets/foto2.jpg" alt="Kenangan 2"></figure>
+        <figure><img src="assets/foto3.jpg" alt="Kenangan 3"></figure>
+      </div>
+    </section>
+
+    <section class="section video-section">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE VIDEO</p>
+        <h2>Putar saat kamu sedang kangen.</h2>
+      </div>
+
+      <div class="video-card">
+        <video controls playsinline preload="metadata" poster="assets/foto1.jpg">
+          <source src="assets/video.mp4" type="video/mp4">
+          Browser kamu belum mendukung video HTML5.
+        </video>
+        <p class="video-note">Ganti <strong>assets/video.mp4</strong> dengan video kalian.</p>
+      </div>
+    </section>
+
+    <section class="section question-section">
+      <div class="question-card">
+        <p class="eyebrow">ONE IMPORTANT QUESTION</p>
+        <h2>Masih sayang aku? 🥺</h2>
+        <p class="question-subtitle">Jawab jujur ya. Jangan lihat tombol lainnya dulu. 😌</p>
+
+        <div class="question-buttons">
+          <button class="button yes" id="yesButton">Masih dong ❤️</button>
+          <button class="button no" id="noButton">Nggak 😭</button>
+        </div>
+
+        <p id="answer" class="answer" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="final-message">
+      <p class="eyebrow">LAST PAGE</p>
+      <h2>Terima kasih sudah menjadi bagian dari ceritaku. ❤️</h2>
+      <p>
+        Semoga website kecil ini jadi pengingat bahwa ada seseorang yang
+        selalu menyimpan kamu dengan baik di dalam ceritanya.
+      </p>
+      <button class="button primary" id="loveButton">Klik untuk pesan terakhir 💌</button>
+      <p id="finalAnswer" class="answer"></p>
+    </section>
+  </main>
+
+  <footer>
+    Dibuat dengan ❤️ untuk seseorang yang spesial.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
